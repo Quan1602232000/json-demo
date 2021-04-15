@@ -1,0 +1,47 @@
+@baseUrl = http://localhost:4000/api
+@resourceName = users
+# Categories
+
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}
+
+#####
+
+# @name filter
+GET {{baseUrl}}/{{resourceName}}?email=kienlol@gmail.com
+#####
+
+# @name paginate
+GET {{baseUrl}}/{{resourceName}}?_page=2&_limit=2
+
+#####
+
+# @name sort
+GET {{baseUrl}}/{{resourceName}}?_sort=name&_order=desc
+
+#####
+
+# @name add
+POST {{baseUrl}}/{{resourceName}}
+Content-Type:  application/json
+
+{
+    "email":"lolkien@gami.com",
+    "password": "123456789",
+    "displayName": "loltrungkien"
+}
+
+#####
+
+# @name update
+PATCH {{baseUrl}}/{{resourceName}}/2
+Content-Type:  application/json
+
+{
+    "displayName":"Quân"
+}
+
+#####
+
+# @name remove
+DELETE {{baseUrl}}/{{resourceName}}/2
