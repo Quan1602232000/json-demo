@@ -8,11 +8,11 @@ GET {{baseUrl}}/{{resourceName}}
 #####
 
 # @name filter
-GET {{baseUrl}}/{{resourceName}}?email=kienlol@gmail.com
+GET {{baseUrl}}/{{resourceName}}?email=kienlol@gmail.com&
 #####
 
 # @name paginate
-GET {{baseUrl}}/{{resourceName}}?_page=2&_limit=2
+GET {{baseUrl}}/{{resourceName}}?_page=3&_limit=10
 
 #####
 

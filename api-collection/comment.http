@@ -1,10 +1,10 @@
 @baseUrl = http://localhost:4000/api
-@resourceName = products
+@resourceName = comments
 
 # Categories
 
 # @name getAll
-GET {{baseUrl}}/{{resourceName}}/1
+GET {{baseUrl}}/{{resourceName}}
 
 #####
 
@@ -12,7 +12,7 @@ GET {{baseUrl}}/{{resourceName}}/1
 # Lọc sản phẩm 
 #gte: greater than or equal (lớn hơn hoặc bằng)
 # ?color=silver&price_gte=200 (Lấy ra những product có màu là silver và giá lớn hơn 200)
-GET {{baseUrl}}/{{resourceName}}/?_totalRows
+GET {{baseUrl}}/{{resourceName}}
 
 #####
 
@@ -35,14 +35,11 @@ POST {{baseUrl}}/{{resourceName}}
 Content-Type:  application/json
 
 {
-    "userId": "2",
-    "name": "SH 2019",
-    "price": 300000,
-    "brand": "SH",
-    "city":"Hà Nội",
-    "active":true,
-    "description":"xe rất là tốt",
-    "date":10
+    "productId":2,
+      "username":"Quân",
+      "comment":"xe rất tốt",
+      "date":"2021-4-2",
+      "time":"11:2:54"
 }
 
 #####
