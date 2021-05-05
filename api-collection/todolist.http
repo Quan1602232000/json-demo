@@ -1,5 +1,5 @@
 @baseUrl = http://localhost:4000/api
-@resourceName = comments
+@resourceName = todolist
 # Categories
 
 # @name getAll
@@ -22,21 +22,14 @@ GET {{baseUrl}}/{{resourceName}}?_sort=name&_order=desc
 #####
 
 # @name add
-POST {{baseUrl}}/{{resourceName}}
+POST {{baseUrl}}/{{resourceName}}/data
 Content-Type:  application/json
 
 {
-      "productId": "3",
-      "name": "Nguyễn Hồng Quân",
-      "comment": "Love you",
-      "date": "2021-4-27",
-      "time": "19:8:54",
-      "rating": "3",
-      "createdAt": 1619525335654,
-      "updatedAt": 1619525335654,
-      "id": 53,
-      "like": 12
-    }
+    "Place": "Bà Nà Hill",
+    "Note": "ffsfsfsfsfsfsfsf",
+    "status": true   
+}   
 
 #####
 

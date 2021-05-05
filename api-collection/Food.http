@@ -1,5 +1,5 @@
 @baseUrl = http://localhost:4000/api
-@resourceName = products
+@resourceName = foods
 
 # Categories
 
@@ -12,14 +12,14 @@ GET {{baseUrl}}/{{resourceName}}
 # Lọc sản phẩm 
 #gte: greater than or equal (lớn hơn hoặc bằng)
 # ?color=silver&price_gte=200 (Lấy ra những product có màu là silver và giá lớn hơn 200)
-GET {{baseUrl}}/{{resourceName}}/?_totalRows
+GET {{baseUrl}}/{{resourceName}}/2
 
 #####
 
 # @name paginate
 # phân trang 
 # ?_page=1: thứ tự trang _limit=5: số item có trên mỗi trang
-GET {{baseUrl}}/{{resourceName}}?name=adadad&_page=1&_limit=5
+GET {{baseUrl}}/{{resourceName}}?&_page=0&_limit=5
 
 #####
 
@@ -48,10 +48,10 @@ Content-Type:  application/json
 #####
 
 # @name update
-PUT {{baseUrl}}/{{resourceName}}/10
+PATCH {{baseUrl}}/{{resourceName}}/2
 Content-Type:  application/json
 {   
-    "Name": "AIR BALDE 2020"    
+    "image": "sdsdsdsdvbtrhrth"    
 }
 
 #####

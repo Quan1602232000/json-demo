@@ -36,9 +36,8 @@ Content-Type:  application/json
 # @name update
 PATCH {{baseUrl}}/{{resourceName}}/2
 Content-Type:  application/json
-
 {
-    "displayName":"Quân"
+    "displayName":"Quân Nguyễn"
 }
 
 #####
