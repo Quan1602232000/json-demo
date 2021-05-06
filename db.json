@@ -2698,27 +2698,11 @@
   ],
   "data_todolist": [
     {
-      "id": 1,
       "todolistId": 1,
       "Place": "Bà Nà Hill",
-      "Note": "ffsfsfsfsfsfsfsf",
-      "status": true
-    },
-    {
-      "id": 2,
-      "todolistId": 1,
-      "Place": "Bà Nà Hill",
-      "Note": "ffsfsfsfsfsfsfsf",
-      "status": true
-    },
-    {
-      "todolistId": 1,
-      "Place": "adadadad",
-      "Note": "adadadadad",
+      "Note": "uhđgdgdgdgd",
       "status": true,
-      "createdAt": 1620195958694,
-      "updatedAt": 1620195958694,
-      "id": 3
+      "id": 2
     },
     {
       "todolistId": 1,
@@ -2731,12 +2715,12 @@
     },
     {
       "todolistId": 1,
-      "Place": "adadadad",
-      "Note": "tgththdhdh",
-      "status": "false",
-      "createdAt": 1620196313792,
-      "updatedAt": 1620196313792,
-      "id": 5
+      "Place": "Bà Nà Hill",
+      "Note": "quân",
+      "status": true,
+      "createdAt": 1620228882710,
+      "updatedAt": 1620228882710,
+      "id": 7
     }
   ]
 }
