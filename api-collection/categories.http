@@ -3,7 +3,7 @@
 # Categories
 
 # @name getAll
-GET {{baseUrl}}/{{resourceName}}
+GET {{baseUrl}}/{{resourceName}}/2
 
 #####
 
